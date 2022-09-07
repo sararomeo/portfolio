@@ -14,8 +14,8 @@ body {
 
 .intro {
   top: 0;
-  min-height: 55vh; /*55% of the viewport height*/
-  padding-top: 45vh; /*45% of viewport height to the top*/
+  min-height: 70vh; /*55% of the viewport height*/
+  padding-top: 35vh; /*45% of viewport height to the top*/
 }
 
 .intro h1 {
