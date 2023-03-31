@@ -18,25 +18,25 @@
 </head>
 
 <body>
-    <div class="d-flex flex-column vh-100">
+    <div class="vh-100">
         <div id="content-container">
         <!-- Header -->
         <header>
             <hgroup class="p-4 d-flex justify-content-center align-content-center align-items-center text-center">
-                <div class="col-5 align-self-start my-photo">
+                <div class="col-5 p-1 h-100 align-self-start my-photo-container rounded-circle">
                     <img class="me-in-a-tree img-fluid float-start rounded-circle" id="me-in-a-tree" src="rsc/photos/me-in-a-tree-cut.png" alt="Sara affacciata tra i rami di un albero.">
                 </div>
-                <div class="col text-centerd-flex flex-column justify-content-between h-100 pb-4">
-                    <h1 class="h1 mt-auto">Hi, I'm Sara!</h1>
-                    <h2 class="h2 mt-2y">Software developer</h2>
+                <div class="col text-center flex-column justify-content-between">
+                    <h1 class="h1">Hi, I'm Sara!</h1>
+                    <h2 class="h2">Software developer</h2>
                 </div>
             </hgroup>
-            <nav class="col-12 py-2 navbar sticky-top">
-                <ul class="nav-list">
-                    <li><a href="#about">About</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer"
+            <nav class="col-12 py-2 navbar sticky-top justify-content-center">
+                <ul class="nav-list navbar-nav">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a target="_blank" class="nav-link" rel="noopener noreferrer"
                             href="https://github.com/stars/sararomeo/lists/unibo-projects">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="nav-item" class="nav-link"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
