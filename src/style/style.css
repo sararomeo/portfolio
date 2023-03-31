@@ -1,0 +1,26 @@
+/**** GLOBAL ****/
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    font-family: 'Candara', Candara, sans-serif;
+}
+
+body {
+    background-color: #f5fff6;
+}
+
+hgroup {
+    background: linear-gradient(#83f08e,#83f08e) top/100% 50% no-repeat, linear-gradient(transparent,transparent) bottom/100% 50% no-repeat;
+}
+
+footer {
+    background-color: #83f08e;
+}
+
+.me-in-a-tree {
+    border: 0.2em solid blue;
+    background: linear-gradient(#f5fff6,#f5fff6) top/100% 50% no-repeat, linear-gradient(red,red) bottom/100% 50% no-repeat;
+}
+
+/*71e0c8*/
