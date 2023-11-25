@@ -1,25 +1,50 @@
+/**** VAR ****/
+:root {
+    --base-aquamarine: #b2eede;
+    --bg-col: #f5fff6;
+}
+
 /**** GLOBAL ****/
 * {
     margin: 0 !important;
     padding: 0 !important;
     text-decoration: none !important;
     font-family: 'Candara', Candara, sans-serif;
+    font-size: large;
 }
 
 body {
-    background-color: #f5fff6;
+    background-color: var(--bg-col);
 }
 
 hgroup {
-    background: linear-gradient(#83f08e,#83f08e) top/100% 50% no-repeat, linear-gradient(#f5fff6,#f5fff6) top/100% 51% no-repeat, linear-gradient(#83f08e,#83f08e) top/100% 52% no-repeat, linear-gradient(transparent,transparent) bottom/100% 51% no-repeat;
+    background: linear-gradient(var(--base-aquamarine), var(--base-aquamarine)) top/100% 50% no-repeat, linear-gradient(var(--bg-col), var(--bg-col)) top/100% 51% no-repeat, linear-gradient(var(--base-aquamarine), var(--base-aquamarine)) top/100% 52% no-repeat, linear-gradient(transparent, transparent) bottom/100% 51% no-repeat;
 }
 
 footer {
-    background-color: #83f08e;
+    background-color: #b2eede;
 }
 
 .my-photo-container {
-    background: linear-gradient(#f5fff6,#f5fff6) top/100% 50% no-repeat, linear-gradient(#83f08e,#83f08e) bottom/100% 48% no-repeat;
+    background: linear-gradient(var(--bg-col), var(--bg-col)) top/100% 50% no-repeat, linear-gradient(var(--base-aquamarine), var(--base-aquamarine)) bottom/100% 48% no-repeat;
 }
 
-/*71e0c8*/
+/**** SCROLL BAR ****/
+::-webkit-scrollbar {
+    width: 0.7em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-col);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #71e0c8;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4ca390;
+}
+
+/**** NAV BAR ****/
