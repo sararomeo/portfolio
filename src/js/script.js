@@ -1,7 +1,16 @@
 /**
- * Set the margin-bottom of the main content area to be the same as the height of the navbar.
+ * Set the margin-bottom of the main content area to be the same as the height of the footer.
  */
-function setContentMarginBottom() {
-    var footerHeight = $("#footer").outerHeight(true);
-    $('#content-container').attr('style', 'margin-bottom:' + footerHeight + 'px !important');
+function adjustPaddingBottom() {
+    var footerHeight = document.querySelector('footer').offsetHeight;
+    document.getElementById('content-container').style.paddingBottom = footerHeight + 'px';
 }
+
+// Call the function on document ready and window resize
+document.addEventListener('DOMContentLoaded', function() {
+    adjustPaddingBottom();
+});
+
+window.addEventListener('resize', function() {
+    adjustPaddingBottom();
+});
